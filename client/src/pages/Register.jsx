@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import photo from '../components/bg2.jpg'
 import { publicRequest } from '../requestMethods';
+import { login } from '../redux/apiCalls';
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom'
 const Register = () => {
     const [name, setName] = useState("");
     const [username, setUsername] = useState("");
@@ -8,7 +11,10 @@ const Register = () => {
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
     const [c, setc] = useState("false");
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
     const register = async () => {
+
         if (password === confirmPassword) setc(true);
         if (c) {
             let user = {
@@ -17,6 +23,8 @@ const Register = () => {
                 "password": password
             }
             await publicRequest.post("/auth/register", user);
+            navigate("/");
+            login(dispatch, { username, password });
 
         }
         else {
