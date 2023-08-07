@@ -4,11 +4,22 @@ This project is an Ecommerce application that allows users to sign up, log in, a
 The user interface is built with React.js and utilizes CryptoJS for hashing passwords before storing them into the database. 
 The backend is developed using Node.js, Express.js, MongoDB, and Stripe API for online payment processing.
 
+# Home Page
 ![home](https://github.com/Chakradhar2003/Ecommerce_Mern_App/assets/95245987/ee5f8cec-4300-49d7-a952-7aa69d9c2e6a)
+
+# Product Page
 ![product](https://github.com/Chakradhar2003/Ecommerce_Mern_App/assets/95245987/a5a181ec-9dc4-4f5a-8b62-caa24e634d90)
+
+# Cart Page
 ![cart](https://github.com/Chakradhar2003/Ecommerce_Mern_App/assets/95245987/fe376db8-a3a1-4ff7-97c9-5d71b8f2d6d8)
+
+# Payment Gateway
 ![payment](https://github.com/Chakradhar2003/Ecommerce_Mern_App/assets/95245987/15996a01-8dd9-447c-969e-bf0016f5c8a2)
+
+# Login Page
 ![signin](https://github.com/Chakradhar2003/Ecommerce_Mern_App/assets/95245987/ab0c4cef-0ae5-4250-bb9b-d9ca9ca24e1a)
+
+# Registeration Page
 ![register](https://github.com/Chakradhar2003/Ecommerce_Mern_App/assets/95245987/f317c3bb-f7ca-45a1-8b25-89778af8af16)
 
 
